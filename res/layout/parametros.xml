@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Domínio ou IP do Web Service"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etUrlWebService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvTag_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porta do Web Service"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etPortaWebService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvNumTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código da Empresa"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etCodigoEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    
+    <CheckBox
+        android:id="@+id/chkVersaoTeste"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Usar versão teste(sem leitor)" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:text="Salvar"
+            android:onClick="createNewParametro" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:text="@string/cancel"
+            android:onClick="cancel" />
+
+    </LinearLayout>
+    
+</LinearLayout>

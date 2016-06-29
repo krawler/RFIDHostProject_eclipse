@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:mode="twoLine"
+    android:padding="4dp" >
+	
+    <LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content" 
+        		  android:id="@+id/first_line_produtos"
+        		  android:orientation="vertical">
+        		  
+        	<LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content" 
+        		  android:id="@+id/line_descricao_prod"
+        		  android:orientation="horizontal">
+			    
+			    <TextView
+				     android:id="@+id/tvLabelCodigo2"
+				     style="@android:style/TextAppearance.Small"
+				     android:layout_width="wrap_content"
+				     android:layout_height="wrap_content"
+				     android:text="@string/codigo" 
+				     android:textColor="#00a9e0" >
+		      
+			    </TextView>
+			    
+			    <TextView          
+			        android:id="@+id/tvCodigoProduto"          
+			        style="@android:style/TextAppearance.Small"          
+			        android:layout_width="wrap_content"          
+			        android:layout_height="wrap_content" >      
+			    </TextView>
+        	    
+        	</LinearLayout>        
+        	
+        	<LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content" 
+        		  android:id="@+id/line_codigo_prod"
+        		  android:orientation="horizontal">
+			    
+    		 	  <TextView
+			        android:id="@+id/tvLabelProduto"
+			        style="@android:style/TextAppearance.Small"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/produto" 
+			        android:textColor="#00a9e0">
+		      
+			    </TextView>
+			    
+			    <TextView          
+			        android:id="@+id/tvProduto"          
+			        style="@android:style/TextAppearance.Small"          
+			        android:layout_width="wrap_content"          
+			        android:layout_height="wrap_content">      
+			    </TextView>		    
+        	    	    
+			</LinearLayout>    		  
+        
+    </LinearLayout>
+	
+    <LinearLayout android:layout_width="fill_parent"
+      		  	  android:layout_height="wrap_content" 
+      		  	  android:id="@+id/second_line_produtos"
+      		  	  android:layout_below="@+id/first_line_produtos"
+      		  	  android:orientation="horizontal">    
+    
+    		    
+	    <TextView          
+	        android:id="@+id/tvLabelTag"          
+	        style="@android:style/TextAppearance.Small"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:text="Tag: "
+	        android:textColor="#00a9e0" >      
+	    </TextView>
+	       
+	    <TextView          
+	        android:id="@+id/tvTag"          
+	        style="@android:style/TextAppearance.Small"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          >      
+	    </TextView>
+
+	</LinearLayout>	 
+    
+
+</TwoLineListItem>

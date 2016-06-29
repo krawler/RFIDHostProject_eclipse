@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        		  android:layout_width="fill_parent"
+        		  android:layout_height="30dp" 
+        		  android:id="@+id/first_line"
+        		  android:orientation="horizontal">
+		 
+		 <TextView          
+	        android:id="@+id/tvLabelCodigo"          
+	        style="@android:style/TextAppearance.Small"         
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:text="@string/codigo" >      
+	    </TextView>
+	    
+	    <TextView          
+	        android:id="@+id/tvCodigo"          
+	        style="@android:style/TextAppearance.Small"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:paddingLeft="5dp" >      
+	    </TextView>  
+	    
+	    <TextView          
+		        android:id="@+id/tvLabelInicio"          
+		        style="@android:style/TextAppearance.Small"          
+		        android:layout_width="wrap_content"          
+		        android:layout_height="wrap_content"   
+		        android:layout_marginLeft="10dp"      
+		        android:text="@string/inicio">      
+	   </TextView>
+		    
+	    <TextView          
+	        android:id="@+id/tvInicio"          
+	        style="@android:style/TextAppearance.Small"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:paddingLeft="3dp" >      
+	    </TextView>  
+	    
+	    <TextView          
+	        android:id="@+id/tvLabelId"          
+	        style="@android:style/TextAppearance.Small"         
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:text="@string/Id" >      
+	    </TextView>
+	    
+	    <TextView          
+	        android:id="@+id/tvId"          
+	        style="@android:style/TextAppearance.Small"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:paddingLeft="5dp" >      
+	    </TextView>      
+		    
+	    <LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content" 
+        		  android:id="@+id/inicio_line"
+        		  android:orientation="horizontal">
+    
+	    	
+		</LinearLayout>   		  
+        
+    </LinearLayout>
+	
+    <!-- 
+    <LinearLayout android:layout_width="fill_parent"
+      		  	  android:layout_height="wrap_content" 
+      		  	  android:id="@+id/second_line"
+      		  	  android:layout_below="@+id/first_line"
+      		  	  android:orientation="vertical">
+	 
+		
+        <LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content" 
+        		  android:id="@+id/fim_line"
+        		  android:orientation="horizontal">
+		    
+            <TextView          
+	        android:id="@+id/tvLabelFim"          
+	        style="@android:style/TextAppearance.Small"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:paddingLeft="10dp" 
+	        android:text="@string/fim">      
+	    </TextView>
+	       
+	    <TextView          
+	        android:id="@+id/tvFim"          
+	        style="@android:style/TextAppearance.Medium"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:paddingLeft="10dp" 
+	        android:text="@string/fim" >      
+	    </TextView>
+            
+	    
+            </LinearLayout>
+	    
+	</LinearLayout>	 
+ -->

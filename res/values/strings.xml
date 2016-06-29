@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RFIDHostActivity!</string>
+    <string name="app_name">Receptor RFID HS Telecom</string>
+    <string name="spin_prompt_bank">NO MASK</string>
+    <string name="prompt_access_epc">PC/EPC</string>
+    <string name="prompt_lock_kill_pwd">Kill PWD skip</string>
+    <string name="prompt_lock_access_pwd">Access PWD skip</string>
+    <string name="prompt_lock_uii_mem">UII MEM skip</string>
+    <string name="prompt_lock_tid_mem">TID MEM skip</string>
+    <string name="prompt_lock_user_mem">User MEM skip</string>
+    
+    <string name="prompt_config_query_session">S00</string>
+    <string name="prompt_config_target_ab">AB</string>
+    <string name="prompt_config_q">~ 32 tags</string>
+   
+    <string name="codigo">Cod:</string>
+    <string name="sessoes">Sessões</string>
+    <string name="inicio">Data/Hora:</string>
+    <string name="fim">Fim: </string>
+    <string name="cancel">Fechar</string>
+    <string name="produto">Prod: </string>
+    <string name="estoque">Estoque:</string>
+    <string name="importando">Importando produtos</string>
+    <string name="tags_lidas">Tags lidas: </string>
+    <string name="Id">  Id:</string>
+    
+</resources>

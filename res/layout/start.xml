@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/btn_BTMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inventário"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_parametros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Parâmetros"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="clickParametros" />
+        
+        <Button
+            android:id="@+id/btn_sessoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sessoes"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" 
+            android:onClick="clickSessoes" />
+
+    </LinearLayout>
+  
+</LinearLayout>   
